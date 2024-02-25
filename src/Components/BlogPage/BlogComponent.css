@@ -1,0 +1,56 @@
+.blogContainer {
+  width: 100%;
+}
+.blogWrapper {
+  width: 100%;
+}
+.blogHeadingContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 6%;
+}
+.blogHeadingContainer h4{
+    width: 20%;
+}
+.blogHeadingContainer p{
+    width: 50%;
+}
+.blogCardContainer {
+  width: 100%;
+}
+.blogCardWrapper1 {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 0 5%;
+}
+.blogCardWrapper1 .card {
+  width: 90%;
+  padding: 0 5%;
+}
+.blogCardWrapper1 img {
+  width: 100%;
+}
+.blogCardWrapper2 {
+  width: 100%;
+  display: flex;
+}
+.blogCardWrapper2 .card {
+  width: 50%;
+}
+.blogContainer p{
+    color: #9b9a9e;
+}
+.blogBtnContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blogBtnContainer button{
+    padding: 1% 2%;
+    border-radius: 5px;
+}

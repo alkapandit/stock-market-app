@@ -1,0 +1,111 @@
+.expertiesContainer {
+  width: 100%;
+  position: relative;
+}
+.expertiesWrapper {
+  width: 90%;
+  padding: 0 5%;
+}
+.expertiesHeadingContainer {
+  width: 90%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.expertiesHeadingContainer h3 {
+  width: 30%;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0;
+  background: -webkit-linear-gradient(315deg, #eee, #777777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.expertiesHeadingContainer p {
+  color: #9b9a9e;
+  font-size: 18px;
+}
+.expertiesCardContainer {
+  width: 100%;
+}
+.expertiesCardWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.expertiesCardWrapper .card {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.expertiesCardWrapper .card span {
+  font-size: 14px;
+  color: #9b9a9e;
+}
+.expertiesCardWrapper .card p,
+.expertiesCardWrapper .card h6 {
+  margin: 0;
+}
+
+.expertiesCardWrapper .card-body {
+  width: 80%;
+  padding: 0 10%;
+}
+.expertiesExperience p,
+.expertiesFollowers p {
+  font-size: 14px;
+  color: #9b9a9e;
+}
+.expertiesExperience h6,
+.expertiesFollowers h6 {
+  text-align: center;
+  font-size: 16px;
+}
+.expertiesCardWrapper .expertiesNameContainer,
+.expertiesCardWrapper .expertiesfollowersContainer,
+.expertiesCardWrapper .expertiesPriceContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 0;
+}
+.verticalLine {
+  width: 1.5px;
+  height: 45px;
+  color: #777777;
+  background-color: #777777;
+}
+.expertiesTextContainer {
+  font-size: 14px;
+  color: #9b9a9e;
+  padding-top: 10px;
+}
+.expertiesPriceContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.expertiesPriceContainer button img {
+  margin-left: 5px;
+}
+.expertiesStar {
+  display: flex;
+  align-items: center;
+}
+.expertiesStar span {
+  color: #fff !important;
+}
+.expertiesPriceContainer h4 {
+  font-size: 30px;
+}
+.expertiesPriceContainer h4 span {
+  font-size: 18px !important;
+  color: #fff !important;
+}
+.cornerCircleContainer img {
+  position: absolute;
+  top: 80%;
+}

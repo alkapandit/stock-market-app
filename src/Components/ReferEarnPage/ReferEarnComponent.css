@@ -1,0 +1,26 @@
+.referEarnContainer {
+  width: 100%;
+}
+.referEarnWrapper {
+  width: 90%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 8% 5%;
+}
+.referEarnWrapper p{
+    color: #9b9a9e;
+}
+.referEarnHeadingContainer {
+  width: 50%;
+}
+.referEarnHeadingContainer h4 {
+  width: 50%;
+}
+.referEarnTextContainer {
+  width: 50%;
+}
+.referEarnHeadingContainer button{
+    padding: 1% 2%;
+    border-radius: 5px;
+}

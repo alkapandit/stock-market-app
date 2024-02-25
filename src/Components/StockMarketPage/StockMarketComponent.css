@@ -1,0 +1,22 @@
+.stockMarketContainer{
+    width: 100%;
+}
+.stockMarketWrapper{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+.stockMarketHeadingContainer{
+    width: 40%;
+}
+.stockMarketHeadingContainer p{
+    color: #9b9a9e;
+    font-size: 18px;
+}
+.stockMarketHeadingContainer button{
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 15px;
+}

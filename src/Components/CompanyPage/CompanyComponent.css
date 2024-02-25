@@ -1,0 +1,76 @@
+.companyContainer {
+  width: 100%;
+  margin-top: 10%;
+}
+.companyContainer h3 {
+  text-align: center;
+  color: #9b9a9e;
+  font-size: 14px;
+}
+.companyWrapper {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 2% 4%;
+}
+.framerContainer,
+.shopifyContainer,
+.githubContainer,
+.launchDarklyContainer,
+.tailscaleContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+}
+.atlassianContainer {
+  margin: 0 2%;
+  display: flex;
+  align-items: baseline;
+}
+.framerContainer i,
+.atlassianContainer i,
+.shopifyContainer i,
+.githubContainer i,
+.launchDarklyContainer i,
+.tailscaleContainer i {
+  color: #9b9a9e;
+}
+
+.framerContainer span,
+.atlassianContainer span,
+.shopifyContainer span,
+.githubContainer span,
+.launchDarklyContainer span,
+.tailscaleContainer span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #9b9a9e;
+}
+.atlassianContainer span {
+  text-transform: uppercase;
+}
+.shopifyContainer span {
+  font-style: italic;
+}
+.githubContainer span {
+  font-weight: bold;
+  font-size: 26px;
+}
+.framerContainer i {
+  font-size: 24px;
+  margin-right: 10%;
+}
+.atlassianContainer i {
+  font-size: 18px;
+  margin-right: 5%;
+}
+.launchDarklyContainer i {
+  margin-left: 4%;
+}
+.shopifyContainer i{
+    margin-right: 4%;
+    font-size: 20px;
+}
+.tailscaleContainer i{
+    margin-right: 4%;
+}

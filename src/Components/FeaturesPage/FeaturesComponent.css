@@ -1,0 +1,86 @@
+.featureContainer {
+  width: 100%;
+  /* height: 100%; */
+}
+.featureWrapper {
+  width: 100%;
+  /* height: 100%; */
+}
+.featureCardContainer {
+  width: 100%;
+}
+.featureCardWrapper {
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.featuresCard {
+  padding: 2%;
+}
+.featuresCard:hover {
+  background-color: #12101a;
+  border-radius: 10px;
+}
+.featureTblContainer {
+  position: relative;
+}
+.featureTblImageContainer {
+  width: 90%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.featureTblImageContainer img {
+  width: 100%;
+}
+.featureTblTextContainer {
+    width: 80%;
+  position: absolute;
+  top: 8%;
+  padding: 10%;
+}
+.featureTblTextWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ width: 100%;
+}
+.featuresText1,
+.featuresText2,
+.featuresText3
+{
+   width: 30%;
+   padding: 3%;
+   text-align: center;
+}
+.featuresText1 p,
+.featuresText2 p,
+.featuresText3 p
+{
+   padding: 0 20%;
+}
+.featureVideoContainer{
+  width: 100%;
+  height: 80vh;
+  margin: 3% 0;
+}
+.featureVideoWrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #12101A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.featureVideoWrapper .featuresTextIcon{
+width: 40%;
+}
+.featureVideoWrapper .featuresPlayIcon{
+width: 8%;
+position: absolute;
+}

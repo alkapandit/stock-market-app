@@ -1,0 +1,37 @@
+.testimonialContainer{
+    width: 100%;
+}
+.testimonialWrapper{
+    width: 80%;
+    padding: 3% 10%;
+}
+.testimonialHeadingContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonialHeadingContainer h4{
+    width: 25%;
+}
+.testimonialHeadingContainer p{
+    width: 50%;
+    color: #9b9a9e;
+}
+.testimonialTextContainer{
+    width: 100%;
+}
+.testimonialTextWrapper{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10%;
+}
+.testimonialTextWrapper p{
+  width: 60%;
+  font-size: 25px;
+    
+}
